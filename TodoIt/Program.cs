@@ -1,12 +1,24 @@
 ﻿using System;
+using TodoIt.Model;
 
 namespace TodoIt
-{
+{ 
+     
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+                
+            Person hasse = new Person();
+                  hasse.FirstName = " Hasse";
+                  hasse.LastName = "Rathod";
+           
+
+
+              hasse.Introduce();
+
+                 
+            
         }
     }
 }
