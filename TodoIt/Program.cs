@@ -8,14 +8,20 @@ namespace TodoIt
     {
         static void Main(string[] args)
         {
-                
+
+
             Person hasse = new Person();
-                  hasse.FirstName = " Hasse";
-                  hasse.LastName = "Rathod";
-           
+            hasse.FirstName = " Hasse";
+            hasse.LastName = "Rathod";
+            hasse.Introduce();
+
+            //Person = new Person("Hasse", "Rathod" );
+            //Person..Introduce();
 
 
-              hasse.Introduce();
+            
+               
+
 
                  
             
